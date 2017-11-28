@@ -8,6 +8,9 @@ for i in 1..100
 	elsif(i%5 == 0){
 		print("buzz\n");
 	}
+	elsif(i%7 == 0){
+		print("git\n");		
+	}
 	else{
 		print(i, "\n");
 	}
